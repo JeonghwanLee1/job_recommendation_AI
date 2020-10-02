@@ -1,5 +1,5 @@
 # :bulb: job_recommendation AI model
-채용공고를 보고 개발자의 지원 유무를 파악하는 AI 추천모델(K-nn, Decision Tree, Random Forest)
+채용공고를 보고 개발자의 지원 유무를 파악하는 AI 추천모델(K-NN, Decision Tree, Random Forest)
 
 ## :floppy_disk: 데이터셋
 job_companies.csv : company 별 job과 규모    
