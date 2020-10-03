@@ -41,7 +41,7 @@ majorstack,minorstack 일치 수 / 회사에서 요구한 기술의 수
 majorstack 일치 수 / 내가 등록한 기술 수  
 
 ## :computer: 사용 모델    
-1) decision tree(scilearn)  
+1) decision tree(sklearn)  
 2) randomforest    
   
 ## :chart_with_downwards_trend: 결과  
