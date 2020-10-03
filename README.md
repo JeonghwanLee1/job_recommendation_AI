@@ -48,7 +48,10 @@ majorstack 일치 수 / 내가 등록한 기술 수
 2) randomforest    
   
 ## :chart_with_downwards_trend: 결과  
-decision Tree  
-
+<img src="https://user-images.githubusercontent.com/43736669/94987189-46c22680-059f-11eb-990e-bc406bd18326.png">  
+programmers 과제란 채점 기준   
+Decision Tree : 78.64%  
+Random Forsest : 78.43%  
+  
 ## :computer: 기술 스택  
-<img src="https://user-images.githubusercontent.com/26294469/60403849-7be20b00-9bdd-11e9-9138-b61ebd71bd9d.png"> 
+python,jupyter notebook, numpy, pandas, sklearn, pydotplus  
