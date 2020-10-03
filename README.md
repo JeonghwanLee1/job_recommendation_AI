@@ -13,33 +13,39 @@ user_tags.csv : user 별 관심 기술 목록
 train.csv(train set) : user가 해당 job에 지원하였는지 여부  
 <img src ="https://user-images.githubusercontent.com/43736669/94921312-086f2d80-04f3-11eb-8256-c0e9c5cab12a.png">  
 
-## : :파생 데이터
+## :thought_balloon:파생 데이터
 1) 회사의 규모 
-미기입 : none 
-10명 이하 : small 
-10명~100명 : medium 
-100명~ : big 
-job_company로부터 추출 
+미기입 : none  
+10명 이하 : small   
+10명 이상 100명 이하 : medium   
+100명 이상 : big  
+job_company로부터 추출  
  
 2) weighted graph
-개발자가 등록하지 않았지만 현재 기술스택과 관련도가 높은 기술을 구하기 위해 각 기술마다 다른 기술과의 연관도를 저장한 weighted graph 
-user_tag로부터 추출 
+개발자가 등록하지 않았지만 현재 기술스택과 관련도가 높은 기술을 구하기 위해 각 기술마다 다른 기술과의 연관도를 저장한 weighted graph.  
+user_tag로부터 추출  
+  
+3) minorstacks   
+내가 보유한 기술과 연관이 높은 기술 top 10. 위의 weighted graph로부터 도출  
+  
+4) 일치 majorstacks  
+회사에서 요구한 기술과 내가 보유한 기술의 일치 수  
+  
+5) 일치 minorstacks  
+회사에서 요구한 기술과 내가 보유한 minorstacks의 일치 수   
 
-3) minorstacks  
-내가 보유한 기술과 연관이 높은 기술 top 10. 위의 weighted graph로부터 도출 
+6) majorstacks/companystacks, minorstacks/ companystacks   
+majorstack,minorstack 일치 수 / 회사에서 요구한 기술의 수   
+  
+7) majorstacks/mystacks   
+majorstack 일치 수 / 내가 등록한 기술 수  
 
-4) 일치 majorstacks 
-회사에서 요구한 기술과 내가 보유한 기술의 일치 수
+## :computer: 사용 모델    
+1) decision tree(scilearn)  
+2) randomforest    
+  
+## :chart_with_downwards_trend: 결과  
+decision Tree  
 
-5) 일치 minorstacks
-회사에서 요구한 기술과 내가 보유한 minorstacks의 일치 수 
-
-6) majorstacks/companystacks, minorstacks/ companystacks 
-majorstack,minorstack 일치 수 / 회사에서 요구한 기술의 수 
-
-7) majorstacks/mystacks 
-majorstack 일치 수 / 내가 등록한 기술 수
-
-## : : 결과
 ## :computer: 기술 스택  
 <img src="https://user-images.githubusercontent.com/26294469/60403849-7be20b00-9bdd-11e9-9138-b61ebd71bd9d.png"> 
