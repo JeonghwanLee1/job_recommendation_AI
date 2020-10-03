@@ -45,11 +45,12 @@ majorstack 일치 수 / 내가 등록한 기술 수
 회사의 규모, 기술 일치율, 기술 일치수, 관련기술 일치율, 관련기술 일치수, 기술 일치율(내 기술수 기준), 내 기술수 이상 7개 column 기준으로 decision Tree 제작  
 <img src = "https://user-images.githubusercontent.com/43736669/94986971-fb5b4880-059d-11eb-92a7-a10b3e890f57.png">  
   
-2) randomforest    
+2) randomforest  
+위 decision tree와 유사한 column 기준 트리의 개수 5개로 randomforest fit  
   
 ## :chart_with_downwards_trend: 결과  
 <img src="https://user-images.githubusercontent.com/43736669/94987189-46c22680-059f-11eb-990e-bc406bd18326.png">  
-programmers 과제란 채점 기준   
+programmers 과제란 공개 점수 채점 기준   
 Decision Tree : 78.64%  
 Random Forsest : 78.43%  
   
