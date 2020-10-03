@@ -41,7 +41,10 @@ majorstack,minorstack 일치 수 / 회사에서 요구한 기술의 수
 majorstack 일치 수 / 내가 등록한 기술 수  
 
 ## :computer: 사용 모델    
-1) decision tree(sklearn)  
+1) decision tree(sklearn)   
+회사의 규모, 기술 일치율, 기술 일치수, 관련기술 일치율, 관련기술 일치수, 기술 일치율(내 기술수 기준), 내 기술수 이상 7개 column 기준으로 decision Tree 제작  
+<img src = "https://user-images.githubusercontent.com/43736669/94986971-fb5b4880-059d-11eb-92a7-a10b3e890f57.png">  
+  
 2) randomforest    
   
 ## :chart_with_downwards_trend: 결과  
