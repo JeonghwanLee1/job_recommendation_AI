@@ -54,5 +54,9 @@ programmers 과제란 공개 점수 채점 기준
 Decision Tree : 78.64%  
 Random Forsest : 78.43%  
   
+programmers 과제란 완료  
+<img src="https://user-images.githubusercontent.com/43736669/95587945-b5125780-0a7d-11eb-8e70-2e3f390364e0.png">
+
+
 ## :computer: 기술 스택  
 python,jupyter notebook, numpy, pandas, sklearn, pydotplus  
